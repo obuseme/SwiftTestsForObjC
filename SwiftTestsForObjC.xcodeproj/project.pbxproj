@@ -46,7 +46,6 @@
 		416325611E8458F700475041 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		416325631E84591F00475041 /* SwiftTestsForObjCTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTestsForObjCTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		416325641E84591F00475041 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
-		416325671E84611D00475041 /* ViewController+Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Testing.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +117,6 @@
 				416325611E8458F700475041 /* ViewControllerTests.swift */,
 				416325641E84591F00475041 /* ViewControllerTests.m */,
 				416325631E84591F00475041 /* SwiftTestsForObjCTests-Bridging-Header.h */,
-				416325671E84611D00475041 /* ViewController+Testing.h */,
 			);
 			path = SwiftTestsForObjCTests;
 			sourceTree = "<group>";
@@ -452,6 +450,7 @@
 				416324DB1E840B1000475041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		416324E71E840B3200475041 /* Build configuration list for PBXNativeTarget "SwiftTestsForObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +459,7 @@
 				416324E91E840B3200475041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

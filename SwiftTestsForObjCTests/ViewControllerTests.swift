@@ -9,6 +9,11 @@
 import XCTest
 @testable import SwiftTestsForObjC
 
+class TestViewController: ViewController {
+  dynamic var nameLabel: UILabel!
+  dynamic var emailLabel: UILabel!
+}
+
 class ViewControllerTests: XCTestCase {
 
   func testViewDidLoad_SetsLabels_Always() {
@@ -17,7 +22,7 @@ class ViewControllerTests: XCTestCase {
     UserDefaults.standard.set(name, forKey: "name")
     UserDefaults.standard.set(email, forKey: "email")
 
-    let toTest = ViewController()
+    let toTest = TestViewController()
     toTest.viewDidLoad()
 
     XCTAssertEqual(name, toTest.nameLabel.text)
